@@ -116,16 +116,40 @@ header>ul>li:hover{
     width: 100%;
     position: relative;
     top: 5%;
-    margin-left: 10%;
+    margin-left: 13%;
     color: white;
+    height: 70vh;
 
 }
 #aboutSec>div{
     width: 100%;
-    margin-left: 10%;
 }
 #aboutSec>div>h4{
     font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+
+.about1{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    gap: 10%;
+
+}
+
+.about1>div{
+    width: 370px;
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 1.5;
+    color: darkgray;
+    text-align: justify;
+    justify-content: center;
+}
+
+.about1>div>p{
+    margin-top: 0;
 }
 
 footer{
