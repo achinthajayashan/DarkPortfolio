@@ -1,10 +1,12 @@
 body {
     font-family: 'Poppins';
+    background-color: black;
+    color: white;
 }
 section{
     width: 90vw;
     height: 85vh;
-    background-color: #f6fbff;
+    background-color: #333333;
     margin-left: 5%;
     display: flex;
 }
@@ -46,8 +48,8 @@ header>ul>li{
 }
 
 header>ul>li:hover{
-    background-color: #333333;
-    color: white;
+    background-color: white;
+    color: #333333;
     transition-property: background-color;
     transition: ease-in;
     transition-duration: 0.5s;
@@ -72,7 +74,7 @@ header>ul>li:hover{
     position: relative;
     top: 30%;
     margin-left: 20%;
-    color: #333333;
+    color: white;
 
 }
 
@@ -81,19 +83,19 @@ header>ul>li:hover{
     font-weight: bold;
 }
 
-#homeSec>h4{
-    padding: 3%;
-    padding-left: 4%;
-    width: 17%;
-    background-color: #333333;
-    color: white;
-}
+/*#homeSec>h4{*/
+/*    padding: 3%;*/
+/*    padding-left: 4%;*/
+/*    width: 17%;*/
+/*    background-color: white;*/
+/*    color: #333333;*/
+/*}*/
 
-#homeSec>h4:hover{
-    background-color: white;
-    color: #333333;
-    border: 2px solid #333333;
-}
+/*#homeSec>h4:hover{*/
+/*    background-color: #333333;*/
+/*    color: white;*/
+/*    border: 2px solid white;*/
+/*}*/
 
 #textChange{
     display: flex;
@@ -105,9 +107,25 @@ header>ul>li:hover{
 }
 
 .line{
-    width: 50px;
+    width: 15%;
     height: 5px;
-    background-color: #333333;
+    background-color: white;
+}
+
+#aboutSec{
+    width: 100%;
+    position: relative;
+    top: 5%;
+    margin-left: 10%;
+    color: white;
+
+}
+#aboutSec>div{
+    width: 100%;
+    margin-left: 10%;
+}
+#aboutSec>div>h4{
+    font-weight: bold;
 }
 
 footer{
@@ -123,14 +141,82 @@ footer>ul{
     list-style: none;
     justify-content: right;
     width: 50%;
-    margin-right: 5%;
+    margin-right: 6%;
+    margin-top: 0;
 }
 
 footer>ul>li{
-    margin-left: 1.5%;
+    margin-left: 3.5%;
 }
 
 footer>p{
     width: 50%;
     margin-left: 5%;
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    border: none;
+    cursor: none;
+    margin: 0px 0px 15px;
+    min-width: 150px;
+}
+
+.btn span {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+    width: 74%;
+    padding: 15px 20px;
+    transition: 0.3s;
+}
+
+.btn-1::before {
+    background-color: white;
+    transition: 0.3s ease-out;
+    color: #333333;
+}
+
+.btn-1 span {
+    color: #333333;
+    border: 1px solid white;
+    transition: 0.2s 0.1s;
+}
+
+.btn-1 span:hover {
+    color: white;
+    transition: 0.2s 0.1s;
+    border: 1px solid white;
+}
+
+:active, :hover, :focus {
+    outline: 0!important;
+    outline-offset: 0;
+}
+
+::before,
+::after {
+    position: absolute;
+    content: "";
+}
+
+.btn.hover-filled-slide-left::before {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.btn.hover-filled-slide-left:hover::before {
+    width: 0%;
 }
