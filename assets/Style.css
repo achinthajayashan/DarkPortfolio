@@ -14,9 +14,8 @@ section{
 
 header{
     margin-top: 0.3%;
-width: 100vw;
+    width: 100vw;
     height: 4vh;
-
     display: inline-flex;
     margin-bottom: 1.5%;
 }
@@ -229,6 +228,70 @@ header>ul>li:hover{
     margin-left: 5%;
     line-height: 2;
     margin-top: 1%;
+}
+
+#serviceSec{
+    width: 100%;
+    position: relative;
+    top: 5%;
+    margin-left: 13%;
+    color: white;
+    height: 70vh;
+    overflow-y: scroll;
+}
+
+#serviceSec>h4{
+    letter-spacing: 5px;
+}
+
+.grid{
+    display: flex;
+    flex-direction: row;
+    gap: 8%;
+    margin-top: 8%;
+}
+.grid>div{
+    width: 350px;
+    height: 370px;
+    border: 2px solid darkgray;
+    color: darkgray;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-self: center;
+    position: relative;
+}
+
+.grid>div:hover{
+    background-color: white;
+    color: #333333;
+}
+
+.grid>div>p{
+    width: 80%;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    /*margin-left: 5%;*/
+    line-height: 1.5;
+    position: relative;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.grid>div>h3{
+    font-size: 22px;
+    padding-top: 15%;
+}
+
+.grid>div>i{
+    font-size: 50px;
+    position: relative;
+    right: 10%;
+    padding-top: 20%;
+    margin: auto;
+    /*text-align: center;*/
 }
 
 footer{
