@@ -527,7 +527,7 @@ footer>p{
     header>i{
         width: 20%;
         color: white;
-        margin-right: 50px;
+        margin-right: 80px;
         text-align: right;
         font-size: 20px;
         margin-top: 2%;
@@ -535,7 +535,7 @@ footer>p{
         visibility: visible;
     }
 
-    header>h4{
+    header>h1{
         font-size: 17px;
         width: 70%;
     }
@@ -549,25 +549,27 @@ footer>p{
     }
 
     #homeSec{
-        margin-left: 0%;
+        margin-left: -1%;
     }
 
     #sideBar{
         height: 100vh;
-        width: 100vw;
+        width: 60vw;
         position: absolute;
         z-index: 3;
         display: flex;
         flex-direction: column;
-
+        right: 0;
+        margin: auto;
         text-align: center;
-
+    /*align-items: flex-end;*/
+        justify-items: right;
 
     }
 
     #sideBar>img{
-        margin-left: 200px;
-
+        position: relative;
+        left: 110px;
     }
     #sideBar>ul{
         list-style: none;
@@ -579,5 +581,25 @@ footer>p{
 
     #sideBar>i{
         font-size: 30px;
+    }
+
+    #homeSec>h1{
+        font-size: 40px;
+    }
+
+    .about1{
+        flex-direction: column;
+    }
+
+    .about1>div:nth-child(2){
+        margin-top: 5%;
+    }
+
+    #aboutSec{
+        margin-left: 3%;
+    }
+
+    .about2{
+        flex-direction: column;
     }
 }
