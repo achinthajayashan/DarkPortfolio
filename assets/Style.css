@@ -522,6 +522,7 @@ footer>p{
 @media screen and (max-width: 600px) {
     body{
         height: 97vh;
+        overflow-x: hidden;
     }
     header .navMenu{
         visibility: hidden;
@@ -597,18 +598,37 @@ footer>p{
 
     .about1{
         flex-direction: column;
+        font-size: 12px;
+        width: 90%;
     }
 
     .about1>div:nth-child(2){
         margin-top: 5%;
     }
+    .about1>div{
+        width: 300px;
+    }
 
     #aboutSec{
         margin-left: 3%;
+
     }
 
     .about2{
         flex-direction: column;
+        width: 90%;
+    }
+
+    .about3 i{
+       font-size: 20px;
+    }
+
+    .about4>div {
+        width: 300px;
+    }
+
+    .institute{
+        width: 300px;
     }
 
     footer>ul>li{
