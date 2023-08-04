@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d90bbea-9804-4825-af93-b7fc96809266" name="Changes" comment="services finished">
+    <list default="true" id="7d90bbea-9804-4825-af93-b7fc96809266" name="Changes" comment="contact">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -85,7 +84,7 @@
       <workItem from="1690868527844" duration="13400000" />
       <workItem from="1690953486657" duration="7498000" />
       <workItem from="1691074450151" duration="1234000" />
-      <workItem from="1691105515921" duration="4865000" />
+      <workItem from="1691105515921" duration="10130000" />
     </task>
     <task id="LOCAL-00001" summary="dark">
       <created>1690826754623</created>
@@ -115,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690914984406</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="contact">
+      <created>1691110672344</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691110672344</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +143,7 @@
     <MESSAGE value="home finished" />
     <MESSAGE value="about me finished" />
     <MESSAGE value="services finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="services finished" />
+    <MESSAGE value="contact" />
+    <option name="LAST_COMMIT_MESSAGE" value="contact" />
   </component>
 </project>

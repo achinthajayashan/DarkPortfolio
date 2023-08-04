@@ -26,13 +26,16 @@
 <header>
   <h4>Achintha Jayashan</h4>
 
-  <ul>
+
+  <ul class="navMenu">
     <li id="btnHome">Home</li>
     <li id="btnAbout">About Me</li>
     <li id="btnService">Services</li>
     <li id="btnPortfolio">Portfolio</li>
     <li id="btnContact">Contact</li>
   </ul>
+
+  <i id="barMenu" class="fa-solid fa-bars"></i>
 </header>
 
 <main>
@@ -279,6 +282,17 @@
     "outerHeight": 30
   }
   magicMouse(options);
+</script>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
 </script>
 </body>
 </html>
