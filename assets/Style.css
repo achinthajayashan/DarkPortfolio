@@ -536,7 +536,7 @@ footer>p{
     }
 
     header>h4{
-        font-size: 20px;
+        font-size: 17px;
         width: 70%;
     }
 
@@ -549,6 +549,6 @@ footer>p{
     }
 
     #homeSec{
-        margin-left: -5%;
+        margin-left: 0%;
     }
 }
