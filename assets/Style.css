@@ -520,6 +520,9 @@ footer>p{
 
 /*-----------mobile responsive-----------------*/
 @media screen and (max-width: 600px) {
+    body{
+        height: 97vh;
+    }
     header .navMenu{
         visibility: hidden;
     }
@@ -574,7 +577,7 @@ footer>p{
 
     #sideBar>img{
         position: relative;
-        left: 110px;
+        left: 100px;
     }
     #sideBar>ul{
         list-style: none;
@@ -613,7 +616,11 @@ footer>p{
     }
 
     footer>ul{
-        margin-right: 10%;
+        margin-right: 12%;
+    }
+
+    footer{
+        font-size: 12px;
     }
 
     section{
