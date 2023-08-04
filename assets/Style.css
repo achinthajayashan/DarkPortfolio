@@ -294,6 +294,129 @@ header>ul>li:hover{
     /*text-align: center;*/
 }
 
+#portfolioSec{
+    width: 100%;
+    position: relative;
+    top: 5%;
+    margin-left: 13%;
+    color: white;
+    height: 70vh;
+    overflow-y: scroll;
+}
+
+#portfolioSec>h4{
+    letter-spacing: 5px;
+}
+
+.portContain{
+    display: flex;
+    flex-direction: row;
+    color: darkgray;
+    width: 700px;
+    margin-top: 8%;
+
+    /*border-radius: 2%;*/
+}
+
+.portContain:hover{
+    /*background-color: white;*/
+    /*border-bottom: 2px solid darkgray;*/
+    /*border-top: 2px solid darkgray;*/
+    color: white;
+    box-shadow: 0px 0px 5px 0px  darkgray;
+}
+
+.portImg>img{
+    width: 350px;
+}
+
+.portDetail{
+    margin-left: 5%;
+}
+
+.portDetail>h3{
+    margin-top: 10%;
+}
+.portDetail>p{
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 15%;
+    text-align: justify;
+    justify-content: center;
+    padding-right: 5%;
+}
+
+#contactSec{
+    width: 100%;
+    position: relative;
+    top: 5%;
+    margin-left: 13%;
+    color: white;
+    height: 70vh;
+    overflow-y: scroll;
+}
+
+#contactSec>h4{
+    letter-spacing: 5px;
+}
+
+.contactRow{
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    margin-top: 10%;
+}
+
+.contactRow>div{
+    text-align: center;
+    width: calc(100%/3);
+    height: 150px;
+    border: 1px solid darkgray;
+    color: darkgray;
+}
+
+.contactRow>a>div{
+    text-align: center;
+    width: calc(620px/3);
+    height: 150px;
+    border: 1px solid darkgray;
+}
+
+.contactRow>a{
+    text-decoration: none;
+    color: darkgray;
+}
+
+.contactRow>div>i{
+    font-size: 25px;
+    padding-bottom: 10%;
+    margin-left: -12%;
+    padding-left: 0;
+    margin-top: 20%;
+}
+
+.contactRow>a>div>i{
+    font-size: 25px;
+    padding-bottom: 10%;
+    margin-left: -12%;
+    padding-left: 0;
+    margin-top: 20%;
+}
+
+.contactRow>div>p{
+    margin-top: 7%;
+    font-size: 15px;
+    line-height: 0.5;
+}
+
+#fb{
+    width: 300px;
+    height: 300px;
+}
+
+
 footer{
     width: 100vw;
     height: 4vh;
