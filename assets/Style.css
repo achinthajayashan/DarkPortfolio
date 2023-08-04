@@ -543,4 +543,12 @@ footer>p{
     header{
         height: 50px;
     }
+
+    #myImg{
+        visibility: hidden;
+    }
+
+    #homeSec{
+        margin-left: -5%;
+    }
 }
