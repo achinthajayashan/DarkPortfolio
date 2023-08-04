@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d90bbea-9804-4825-af93-b7fc96809266" name="Changes" comment="responsive started">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +85,7 @@
       <workItem from="1690868527844" duration="13400000" />
       <workItem from="1690953486657" duration="7498000" />
       <workItem from="1691074450151" duration="1234000" />
-      <workItem from="1691105515921" duration="10813000" />
+      <workItem from="1691105515921" duration="13736000" />
     </task>
     <task id="LOCAL-00001" summary="dark">
       <created>1690826754623</created>
@@ -133,7 +136,28 @@
       <option name="project" value="LOCAL" />
       <updated>1691122125342</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="responsive started">
+      <created>1691122383698</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1691122383698</updated>
+    </task>
+    <task id="LOCAL-00009" summary="responsive started">
+      <created>1691122560466</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1691122560466</updated>
+    </task>
+    <task id="LOCAL-00010" summary="responsive started">
+      <created>1691125023275</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1691125023275</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
