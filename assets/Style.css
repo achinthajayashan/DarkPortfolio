@@ -628,9 +628,48 @@ footer>p{
     }
 
     .institute{
+        width: 280px;
+        font-size: 11px;
+    }
+
+    #serviceSec{
+        margin-left: -5%;
+    }
+
+    .grid{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .grid>div{
+        width: 280px;
+    }
+
+    .grid>div>p{
+        font-size: 12px;
+    }
+
+    #portfolioSec{
+        margin-left: 2%;
+    }
+
+    .portContain{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .portDetail{
         width: 300px;
     }
 
+    .portDetail>p{
+        font-size: 13px;
+    }
+
+    .contactRow{
+        flex-direction: column;
+        gap: 15px;
+    }
     footer>ul>li{
         margin-left: 12%;
     }
