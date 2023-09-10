@@ -674,6 +674,17 @@ footer>p{
         margin-left: 12%;
     }
 
+    /*footer>ul>li>a{*/
+    /*    text-decoration: none;*/
+    /*    color: #eeeeee;*/
+    /*}*/
+
+    /*footer>ul>li>a>i{*/
+    /*    text-decoration: none;*/
+    /*    color: #eeeeee;*/
+    /*    list-style: none;*/
+    /*}*/
+
     footer>ul{
         margin-right: 12%;
     }
